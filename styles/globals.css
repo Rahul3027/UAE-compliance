@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-bg text-slate-100 antialiased; }
+.panel { @apply bg-panel/80 border border-cyan-500/20 backdrop-blur rounded-xl; }
