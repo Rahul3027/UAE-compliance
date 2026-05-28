@@ -1,6 +1,4 @@
 import { ModulePage } from '@/components/learning/module-page';
-import { getModule } from '@/lib/get-module';
+import { modules } from '@/data/modules';
 
-export default function Page() {
-  return <ModulePage module={getModule('uae-overview')} />;
-}
+export default function Page(){ return <ModulePage title="uae overview" description={modules.generic.description} bullets={modules.generic.bullets as string[]} flow={modules.generic.flow as string[]} />; }
