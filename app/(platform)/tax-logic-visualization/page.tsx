@@ -1,4 +1,6 @@
 import { ModulePage } from '@/components/learning/module-page';
-import { modules } from '@/data/modules';
+import { getModule } from '@/lib/get-module';
 
-export default function Page(){ return <ModulePage title="tax logic visualization" description={modules.generic.description} bullets={modules.generic.bullets as string[]} flow={modules.generic.flow as string[]} />; }
+export default function Page() {
+  return <ModulePage module={getModule('tax-logic-visualization')} />;
+}

@@ -16,6 +16,16 @@
     "framer-motion": "^11.11.17",
     "lucide-react": "^0.468.0",
     "mermaid": "^11.4.0",
+//<<<<<<< codex/build-interactive-learning-platform-for-uae-e-invoicing-otntqp
+    "next": "^14.2.33",
+    "prismjs": "^1.29.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "recharts": "^3.3.0",
+    "tailwind-merge": "^2.5.4",
+    "zustand": "^5.0.1",
+    "reactflow": "^11.11.4"
+//=======
     "next": "14.2.15",
     "prismjs": "^1.29.0",
     "react": "18.3.1",
@@ -24,6 +34,7 @@
     "recharts": "^2.13.3",
     "tailwind-merge": "^2.5.4",
     "zustand": "^5.0.1"
+//>>>>>>> main
   },
   "devDependencies": {
     "@types/node": "^22.9.0",
